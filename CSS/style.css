@@ -1,0 +1,27 @@
+.row{
+    display:grid;
+    gap:2rem;
+}
+.heading{
+    display:grid;
+    padding:2rem;
+    background-color: blueviolet;
+    text-align: center;
+    color:whitesmoke;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: bold;
+    font-size: 2rem;
+}
+
+.grp{
+    display:grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap:2rem;
+}
+
+.unit{
+    border:1px solid grey;
+    /* background-color: aquamarine; */
+    padding:2rem;
+    border-radius:10px;
+}
